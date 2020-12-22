@@ -1,0 +1,22 @@
+git --version
+git config
+git config --global user.name "[name]"
+git config --global user.email"[email]"
+git init
+git status
+git add
+git add -A
+git add .
+git add *
+git add <filename>
+git add <directory>
+git diff;
+git rm --cached -f gitcommands.txt: This will only remove the file from the staging area or remove the index
+git reset --hard : This command will remove from staging area as well as from your working directory
+git commit -m "message": This command will commit the staged snapshot into the local repository(Git repository)
+git log : it show all the commit points done on git repository
+git commit -a: This commits any files you have added with the git add command and also commits any files you have changed since then
+git reset [commit]: This command undoes all the commits after the specified commit and preserve the changes locally
+git reset --hard [commit] This command discards all history and goes back to the specified commit
+git rm [file] - It will remove file from your working directory
+git log --follow [filename] - This will list down version history for a specific file
